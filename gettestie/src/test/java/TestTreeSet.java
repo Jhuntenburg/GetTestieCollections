@@ -46,5 +46,8 @@ public class TestTreeSet {
 
     Assert.assertTrue(expected.isEmpty());
 
+    expected.add("Gymnastics");
+    Assert.assertFalse(expected.isEmpty());
+
 }
 }
